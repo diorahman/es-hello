@@ -1,0 +1,11 @@
+{
+  "name": "hello-esm",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node -r @std/esm index.js"
+  },
+  "@std/esm": "all",
+  "dependencies": {
+    "@std/esm": "^0.8.3"
+  }
+}
